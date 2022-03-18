@@ -57,6 +57,7 @@ UPDATE tb_produtos SET preco = 8.50 WHERE id = 5;
 -- Atualizar quantidade do produto
 UPDATE tb_produtos SET quantidade = 90 WHERE id = 3;
 
+-- Atualizar os dados da tabela
 UPDATE tb_produtos SET descricao = "Mercearia" WHERE id = 1;
 UPDATE tb_produtos SET descricao = "Hortfruti" WHERE id = 2;
 UPDATE tb_produtos SET descricao = "Hortfruti" WHERE id = 3;
