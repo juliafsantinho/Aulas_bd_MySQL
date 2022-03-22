@@ -83,12 +83,12 @@ SELECT * FROM tb_produto WHERE curso LIKE "%c%";
 
 /* CONSULTAS DO TIPO JOIN -> JUNTAR DUAS TABELAS*/
 -- INNER JOIN -> INTERSECÇÃO, SÓ O MEIO ENTRE AS TABELAS PRODUTOS E CATEGORIAS
-SELECT curso, valor_curso, cliente_nome, tb_categoria.categoria
+SELECT *
 FROM tb_produto INNER JOIN tb_categoria
 ON tb_produto.categoria_id = tb_categoria.id;
 
 -- FILTRANDO COM WHERE DAS CONSULTAS TIPO JOIN
-SELECT curso, valor_curso, cliente_nome, tb_categoria.categoria
+SELECT *
 FROM tb_produto INNER JOIN tb_categoria
 ON tb_produto.categoria_id = tb_categoria.id
 WHERE tb_categoria.categoria = "Administração";
